@@ -2,34 +2,25 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Evan House</title>
     <link rel="stylesheet" href="style.css">
+    <link
+    rel="stylesheet"
+    href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+    integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
+    crossorigin="anonymous"
+  />
 </head>
 <body>
-   <!-- Navbar Section --> 
-   <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Scroll Website</title>
-    <link rel="stylesheet" href="styles.css" />
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
-      integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
-      crossorigin="anonymous"
-    />
-  </head>
-  <body>
+   
     <!-- Navbar Section -->
     <nav class="navbar">
       <div class="navbar__container">
         <a href="#home" id="navbar__logo">EVAN HOUSE</a>
         <div class="navbar__toggle" id="mobile-menu">
-          <span class="bar"></span> <span class="bar"></span>
+          <span class="bar"></span> 
+          <span class="bar"></span>
           <span class="bar"></span>
         </div>
         <ul class="navbar__menu">
@@ -40,8 +31,7 @@
             <a href="#about" class="navbar__links" id="about-page">About</a>
           </li>
           <li class="navbar__item">
-            <a href="#projects" class="navbar__links" id="projects-page"
-              >Projects</a>
+            <a href="#projects" class="navbar__links" id="projects-page">Projects</a>
           </li>
           <li class="navbar__btn">
             <a href="#contact" class="button" id="contact">Contact</a>
@@ -49,6 +39,15 @@
         </ul>
       </div>
     </nav>
+
+    <!-- Hero Section -->
+    <div class="hero" id="home">
+      <div class="hero__container">
+        <h1 class="hero__heading">Hire <span>Evan House</span></h1>
+        <p class="hero__description">Creative Engineer communicating proficiently with both machines and people</p>
+        <button class="main__btn"><a href="#">Explore</a></button>
+      </div>
+    </div>
 
     <!--About Section-->
     <div class="main" id="about">
@@ -66,7 +65,7 @@
     </div>
 
     <!-- Projects Section -->
-   <div class="projects">
+   <div class="projects" id="projects">
       <h1>Projects</h1>
       <div class="projects__wrapper">
         
@@ -118,13 +117,13 @@
   
     <!-- Footer Section -->
 
-    <div class="class footer__container">
+    <div class="footer__container">
       <div class="footer__links">
         <div class="footer__link--wrapper">
           
           <div class="footer__link--items">
             <h2>About Me</h2>
-            <a href="/">How it Works</a>
+            <a href="/contact">How it Works</a>
             <a href="/">Testimonials</a>
             <a href="/">Careers</a>
             <a href="/">Terms of Service</a>
